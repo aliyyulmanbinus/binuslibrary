@@ -1,9 +1,9 @@
 <?php
 date_default_timezone_set("Asia/Jakarta");
-$db_name = "db_perpuspro";
+$db_name = "db_binuslibrary";
 
 $conn = mysqli_connect("localhost", "root", "");
-mysqli_select_db($conn, "db_perpuspro");
+mysqli_select_db($conn, "db_binuslibrary");
 
 //fungsi format rupiah 
 /**function format_rupiah($rp) {
